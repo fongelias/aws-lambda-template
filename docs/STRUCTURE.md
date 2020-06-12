@@ -3,6 +3,7 @@ This file is used for planning and outlining the directory structure of this app
 
 ## Directory Structure
 ### Visualization
+```
 .
 +--README.md
 +--docs
@@ -11,6 +12,7 @@ This file is used for planning and outlining the directory structure of this app
 +--src
 |  +--templates
 +--.travis.yml
+```
 
 ### Directory Descriptions
 |name|description|
