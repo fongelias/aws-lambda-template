@@ -12,6 +12,14 @@
             "Resource": [
                 "[lambda_arn]"
             ]
+        },
+        {
+            "Sid": "SetRole",
+            "Effect": "Allow",
+            "Action": [
+                "iam:PassRole"
+            ],
+            "Resource": "[lambda_execution_role_arn]"
         }
     ]
 }
